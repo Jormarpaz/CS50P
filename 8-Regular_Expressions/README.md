@@ -1,77 +1,35 @@
-# Week 8: Regular Expressions Projects
+# Week 8 Overview
 
-This week, we focus on projects that utilize regular expressions to solve various problems. Below is a list of the projects, their purposes, and instructions on how to use them.
+This week focuses on working with regular expressions in Python. Regular expressions are powerful tools for pattern matching and text manipulation.
 
-## Projects
+## Topics Covered
 
-### 1. NUMB3RS.PY
+- **Introduction to Regular Expressions**: Understanding the basics of regex.
+- **Regex Syntax**: Learning the syntax and special characters used in regex.
+- **Pattern Matching**: Techniques for matching patterns in text.
+- **Substitution and Splitting**: Using regex for text substitution and splitting.
+- **Advanced Regex Features**: Exploring advanced features like lookaheads and lookbehinds.
 
-**Purpose:** Validate IPv4 addresses.
+## Learning Objectives
 
-**Usage:**
+- Understand the basics of regular expressions and their syntax.
+- Learn to use regex for pattern matching and text manipulation.
+- Practice writing regex patterns for various use cases.
+- Familiarize yourself with advanced regex features and their applications.
 
-1. Run the script.
-2. Input an IPv4 address when prompted.
-3. The script will print `True` if the address is valid, otherwise `False`.
+## Resources
 
-```sh
-python numb3rs.py
-```
+- [Python Regular Expressions Documentation](https://docs.python.org/3/library/re.html)
 
-### 2. RESPONSE.PY
+## Assignments
 
-**Purpose:** Validate email addresses.
+- Complete the problem sets provided in the course.
+- Participate in the discussion forums to clarify doubts.
 
-**Usage:**
+## Tips
 
-1. Run the script.
-2. Input an email address when prompted.
-3. The script will print `Valid` if the email is valid, otherwise `Invalid`.
+- Practice writing regex patterns for different text manipulation tasks.
+- Use online regex testers to debug and refine your patterns.
+- Read the documentation to understand the full capabilities of regex.
 
-```sh
-python response.py
-```
-
-### 3. UM.PY
-
-**Purpose:** Count occurrences of the word "um" in a given text.
-
-**Usage:**
-
-1. Run the script.
-2. Input a text when prompted.
-3. The script will print the count of "um" occurrences.
-
-```sh
-python um.py
-```
-
-### 4. WATCH.PY
-
-**Purpose:** Extract and convert YouTube video URLs from HTML iframe tags to short URLs.
-
-**Usage:**
-
-1. Run the script.
-2. Input an HTML string containing a YouTube iframe tag when prompted.
-3. The script will print the short YouTube URL if found, otherwise `None`.
-
-```sh
-python watch.py
-```
-
-### 5. WORKING.PY
-
-**Purpose:** Convert time ranges from 12-hour format to 24-hour format.
-
-**Usage:**
-
-1. Run the script.
-2. Input a time range in the format `HH:MM AM/PM to HH:MM AM/PM` when prompted.
-3. The script will print the time range in 24-hour format.
-
-```sh
-python working.py
-```
-
-Each script is designed to be run from the command line and will prompt the user for the necessary input. Ensure you have Python installed and accessible from your command line to run these scripts.
+Happy coding!

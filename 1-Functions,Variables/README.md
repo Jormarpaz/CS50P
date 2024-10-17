@@ -1,41 +1,36 @@
-# CS50P Week 1: Functions and Variables
+# Week 1: Functions, Variables
 
 ## Overview
 
-This week, we focused on understanding the basics of functions and variables in Python. Below are the projects we worked on and their descriptions.
+This week focuses on understanding and implementing functions and variables in Python. Functions and variables are fundamental for structuring and storing data in your code.
 
-## Projects
+## Topics Covered
 
-### 1. Hello
+- **Functions**: Defining and calling functions.
+- **Variables**: Declaring and using variables.
+- **Scope**: Understanding local and global scope.
+- **Data Types**: Working with different data types.
 
-**Description:** A simple program that prompts the user for their name and then greets them with a personalized message.
+## Learning Objectives
 
-**How to use:** Run the program and enter your name when prompted. The program will then display a greeting message with your name.
+- Understand the syntax and usage of functions and variables.
+- Learn to define and call functions with parameters.
+- Practice using variables to store and manipulate data.
+- Understand the concept of scope and how it affects variable access.
 
-### 2. Calculator
+## Resources
 
-**Description:** A basic calculator that performs addition, subtraction, multiplication, and division based on user input.
+- [Python Functions Documentation](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 
-**How to use:** Run the program and follow the prompts to enter two numbers and select an operation (addition, subtraction, multiplication, or division). The program will then display the result of the operation.
+## Assignments
 
-### 3. Temperature Converter
+- Complete the problem sets provided in the course.
+- Participate in the discussion forums to clarify doubts.
 
-**Description:** Converts temperatures between Fahrenheit and Celsius. The user inputs the temperature and the program outputs the converted value.
+## Tips
 
-**How to use:** Run the program and enter the temperature you want to convert. Specify whether the input temperature is in Fahrenheit or Celsius. The program will then display the converted temperature.
+- Practice writing functions with different parameters.
+- Use variables effectively to store and manipulate data.
+- Debug your functions by adding print statements to understand the flow.
 
-### 4. BMI Calculator
-
-**Description:** Calculates the Body Mass Index (BMI) based on user-provided height and weight.
-
-**How to use:** Run the program and enter your height and weight when prompted. The program will then calculate and display your BMI.
-
-### 5. Tip Calculator
-
-**Description:** Helps users calculate the tip amount based on the total bill and the desired tip percentage.
-
-**How to use:** Run the program and enter the total bill amount and the desired tip percentage. The program will then calculate and display the tip amount.
-
-## Conclusion
-
-These projects helped reinforce the concepts of functions and variables, providing a solid foundation for more complex programming tasks in the future.
+Happy coding!

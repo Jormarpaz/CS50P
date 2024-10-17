@@ -1,73 +1,37 @@
-# Week 7 Projects
+# Week 7 Overview
 
-This week's projects focus on file handling and manipulation using Python. Below are the details of each project, their names, and instructions on how to use them.
+This week focuses on working with files in Python. Handling files is essential for reading from and writing to external data sources.
 
-## Projects
+## Topics Covered
 
-### 1. `lines.py`
+- **File I/O Basics**: Understanding how to open, read, write, and close files.
+- **Reading Files**: Techniques for reading data from files.
+- **Writing Files**: Methods for writing data to files.
+- **File Modes**: Different modes for opening files (read, write, append, etc.).
+- **Working with CSV Files**: Reading from and writing to CSV files.
+- **Handling File Exceptions**: Managing errors that occur during file operations.
 
-Counts the number of lines of code in a Python file, excluding comments and blank lines.
+## Learning Objectives
 
-#### Usage
+- Understand the basics of file input and output operations in Python.
+- Learn to read data from various file formats.
+- Practice writing data to files in different modes.
+- Familiarize yourself with handling exceptions that may occur during file operations.
 
-```sh
-python lines.py filename.py
-```
+## Resources
 
-- `filename.py`: The Python file to count lines of code.
+- [Python File I/O Documentation](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+- [Python CSV Module Documentation](https://docs.python.org/3/library/csv.html)
 
-### 2. `pizza.py`
+## Assignments
 
-Reads a CSV file containing pizza data and displays it in a formatted table using the `tabulate` library.
+- Complete the problem sets provided in the course.
+- Participate in the discussion forums to clarify doubts.
 
-#### Usage
+## Tips
 
-```sh
-python pizza.py pizza.csv
-```
+- Practice reading from and writing to different types of files.
+- Use exception handling to manage errors during file operations.
+- Debug your file operations by adding print statements to understand the flow.
 
-- `pizza.csv`: The CSV file containing pizza data.
-
-### 3. `scourgify.py`
-
-Reads a CSV file with student names and houses, then writes a new CSV file with the names split into first and last names.
-
-#### Usage
-
-```sh
-python scourgify.py input.csv output.csv
-```
-
-- `input.csv`: The input CSV file with student data.
-- `output.csv`: The output CSV file with formatted student data.
-
-### 4. `shirt.py`
-
-Overlays a shirt image onto another image and saves the result.
-
-#### Usage
-
-```sh
-python shirt.py input.JPEG/PNG output.JPEG/PNG
-```
-
-- `input.JPEG/PNG`: The input image file.
-- `output.JPEG/PNG`: The output image file with the shirt overlay.
-
-## Requirements
-
-- Python 3.x
-- Required libraries: `csv`, `sys`, `os`, `tabulate`, `PIL` (Pillow)
-
-## Installation
-
-Install the required libraries using pip:
-
-```sh
-pip install tabulate pillow
-```
-
-## Notes
-
-- Ensure that the input files exist and have the correct extensions.
-- For `shirt.py`, ensure that `shirt.png` is available in the same directory.
+Happy coding!

@@ -1,53 +1,34 @@
-# CS50P Week 2: Conditionals
+# Week 2: Conditionals
 
-## Projects Overview
+## Overview
 
-### 1. Project: `calculator.py`
+This week focuses on understanding and implementing conditionals in Python. Conditionals are essential for making decisions in your code.
 
-This project is a simple calculator that performs basic arithmetic operations like addition, subtraction, multiplication, and division based on user input.
+## Topics Covered
 
-#### How to Use:
+- **If Statements**: Making decisions based on conditions.
+- **Elif and Else Statements**: Handling multiple conditions.
+- **Nested Conditionals**: Using conditionals within conditionals.
+- **Logical Operators**: `and`, `or`, and `not`.
 
-1. Run the script: `python calculator.py`
+## Learning Objectives
 
-2. Follow the prompts to enter two numbers and select an operation.
-3. The result will be displayed on the screen.
+- Understand the syntax and usage of `if`, `elif`, and `else` statements.
+- Learn to use logical operators to combine conditions.
+- Practice writing nested conditionals for complex decision-making.
 
-### 2. Project: `grade_checker.py`
+## Resources
 
-This project checks the grade of a student based on the score provided and categorizes it into different grade levels (A, B, C, D, F).
+- [Python Conditionals Documentation](https://docs.python.org/3/tutorial/controlflow.html#if-statements)
 
-#### How to Use:
+## Assignments
 
-1. Run the script: `python grade_checker.py`
-2. Enter the student's score when prompted.
-3. The corresponding grade will be displayed.
+- Complete the problem sets provided in the course.
+- Participate in the discussion forums to clarify doubts.
 
-### 3. Project: `leap_year.py`
+## Tips
 
-This project determines whether a given year is a leap year or not.
+- Practice writing conditionals with different scenarios.
+- Debug your conditionals by adding print statements to understand the flow.
 
-#### How to Use:
-
-1. Run the script: `python leap_year.py`
-2. Enter the year when prompted.
-3. The script will indicate whether the year is a leap year.
-
-### 4. Project: `temperature_converter.py`
-
-This project converts temperatures between Celsius and Fahrenheit.
-
-#### How to Use:
-
-1. Run the script: `python temperature_converter.py`
-2. Enter the temperature and the unit (C/F) when prompted.
-3. The converted temperature will be displayed.
-
-## Execution Instructions
-
-1. Ensure you have Python installed on your system.
-2. Open a terminal or command prompt.
-3. Navigate to the directory containing the project files.
-4. Execute the desired script using the command: `python <script_name>.py`
-
-Enjoy exploring the projects and learning about conditionals in Python!
+Happy coding!

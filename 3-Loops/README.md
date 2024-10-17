@@ -1,52 +1,34 @@
-# CS50P Week 3: Loops
+# Week 3: Loops
 
-## Projects Overview
+## Overview
 
-### 1. Project: Multiplication Table
+This week focuses on understanding and implementing loops in Python. Loops are fundamental for performing repetitive tasks efficiently.
 
-This project generates a multiplication table for a given number.
+## Topics Covered
 
-#### How to Use
+- **For Loops**: Iterating over sequences.
+- **While Loops**: Executing code as long as a condition is true.
+- **Nested Loops**: Using loops within loops.
+- **Loop Control Statements**: `break`, `continue`, and `pass`.
 
-1. Run the script: `python multiplication_table.py`
-2. Enter the number when prompted.
+## Learning Objectives
 
-### 2. Project: Guessing Game
+- Understand the syntax and usage of `for` and `while` loops.
+- Learn to control loop execution with `break`, `continue`, and `pass`.
+- Practice writing nested loops for complex tasks.
 
-This project is a simple number guessing game where the user has to guess a randomly generated number within a range.
+## Resources
 
-#### How to Use
+- [Python Loops Documentation](https://docs.python.org/3/tutorial/controlflow.html#for-statements)
 
-1. Run the script: `python guessing_game.py`
-2. Follow the on-screen instructions to guess the number.
+## Assignments
 
-### 3. Project: Factorial Calculator
+- Complete the problem sets provided in the course.
+- Participate in the discussion forums to clarify doubts.
 
-This project calculates the factorial of a given number using loops.
+## Tips
 
-#### How to Use
-
-1. Run the script: `python factorial_calculator.py`
-2. Enter the number when prompted.
-
-### 4. Project: Fibonacci Sequence
-
-This project generates the Fibonacci sequence up to a specified number of terms.
-
-#### How to Use
-
-1. Run the script: `python fibonacci_sequence.py`
-2. Enter the number of terms when prompted.
-
-## Execution
-
-To execute any of these projects, ensure you have Python installed on your system. Open your terminal or command prompt, navigate to the project directory, and run the respective script using the `python` command followed by the script name.
-
-Example:
-
-```bash
-cd /C:/Users/jorge/Documents/GitHub/CS50P/3-Loops/
-python multiplication_table.py
-```
+- Practice writing loops with different conditions and ranges.
+- Debug your loops by adding print statements to understand the flow.
 
 Happy coding!

@@ -1,88 +1,36 @@
-# Week 9 Projects: Object-Oriented Programming
+# Week 9 Overview
 
-This week, we focus on Object-Oriented Programming (OOP) concepts through three projects: `jar.py`, `seasons.py`, and `shirtificate.py`. Below is a brief overview of each project and instructions on how to use them.
+This week focuses on working with object-oriented programming (OOP) in Python. OOP is a programming paradigm that uses objects and classes to structure code in a more modular and reusable way.
 
-## Projects Overview
+## Topics Covered
 
-### 1. Jar.py
+- **Introduction to OOP**: Understanding the basics of object-oriented programming.
+- **Classes and Objects**: Learning how to define and use classes and objects.
+- **Inheritance**: Exploring how to create subclasses and inherit properties and methods.
+- **Encapsulation**: Understanding how to protect data within classes.
+- **Polymorphism**: Learning how to use methods in different ways across different classes.
 
-`jar.py` simulates a cookie jar with a specified capacity. You can deposit and withdraw cookies from the jar.
+## Learning Objectives
 
-#### Usage
+- Understand the basics of object-oriented programming and its benefits.
+- Learn to define and use classes and objects in Python.
+- Practice creating subclasses and using inheritance to extend functionality.
+- Familiarize yourself with encapsulation and how to protect data within classes.
+- Explore polymorphism and how to use methods in different contexts.
 
-1. **Initialization**: Create a `Jar` object with a specified capacity (default is 12).
+## Resources
 
-    ```python
-    jar = Jar(capacity=10)
-    ```
+- [Python OOP Documentation](https://docs.python.org/3/tutorial/classes.html)
 
-2. **Deposit Cookies**: Add cookies to the jar.
+## Assignments
 
-    ```python
-    jar.deposit(5)
-    ```
+- Complete the problem sets provided in the course.
+- Participate in the discussion forums to clarify doubts.
 
-3. **Withdraw Cookies**: Remove cookies from the jar.
+## Tips
 
-    ```python
-    jar.withdraw(3)
-    ```
+- Practice writing classes and creating objects for different use cases.
+- Use inheritance to extend the functionality of existing classes.
+- Read the documentation to understand the full capabilities of OOP in Python.
 
-4. **Check Size**: Get the current number of cookies in the jar.
-
-    ```python
-    print(jar.size)
-    ```
-
-### 2. Seasons.py
-
-`seasons.py` calculates the number of minutes you have lived based on your birthdate and prints the result in words.
-
-#### Usage
-
-1. Run the script and input your birthdate in the format `YYYY-MM-DD`.
-
-    ```sh
-    python seasons.py
-    ```
-
-2. The script will output the number of minutes you have lived in words.
-
-### 3. Shirtificate.py
-
-`shirtificate.py` generates a PDF certificate with your name on a shirt image.
-
-#### Usage
-
-1. Run the script and input your name.
-
-    ```sh
-    python shirtificate.py
-    ```
-
-2. The script will generate a `shirtificate.pdf` file with your name on it.
-
-## Requirements
-
-- Python 3.x
-- Required libraries:
-  - `fpdf`
-  - `inflect`
-
-Install the required libraries using pip:
-
-```sh
-pip install fpdf inflect
-```
-
-## Running the Scripts
-
-To run any of the scripts, navigate to the directory containing the script and use the following command:
-
-```sh
-python script_name.py
-```
-
-Replace `script_name.py` with the name of the script you want to run.
-
-Enjoy exploring Object-Oriented Programming with these projects!
+Happy coding!
